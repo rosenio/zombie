@@ -2,7 +2,7 @@
 
 #include "zombie_bindings.h"
 
-NB_MODULE(py, m) {
+NB_MODULE(zombie_bindings, m) {
     m.doc() = "Zombie Python bindings";
 
     // bind non-templated resources
